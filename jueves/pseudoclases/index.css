@@ -1,0 +1,35 @@
+p {
+    color: salmon;
+}
+
+a:link {
+    color: green;
+}
+a:visited { 
+    color: orange;
+}
+
+a:hover {
+    cursor: help;
+    background-color: aquamarine;
+}
+
+p:hover {
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+
+p::after{
+    content: "✨";
+}
+p::before{
+    content: "💅🏼";
+}
+
+::placeholder {
+    color: peru;
+}
+
+input[type="text"]:focus {
+    background-color: black;
+}

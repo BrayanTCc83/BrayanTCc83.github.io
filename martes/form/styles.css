@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("./assets/setup.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;    
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: end;
+    padding-top: 3rem;
+    width: 100%;
+    background: none;
+}
+
+section {
+    padding-left: 6rem;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5rem;
+}
+
+nav > strong {
+    margin-right: 5rem;
+    color: snow;
+}
+
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:active{
+    color: dodgerblue;
+}
+
+.login_messages p{
+    width: 50%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    color: darkgray;
+}
+
+.login_messages p:nth-child(2) {
+    margin: 0;
+    color: snow;
+    font-size: 3rem;
+}
+
+.login_messages div  {
+    font-size: 1.1rem;
+}
+
+.login_messages div p {
+    flex-direction: row;
+}
+
+.login_messages div a {
+    padding-left: 6px;
+}
+
+.primary_data{
+    width: 45%;
+}
+
+.div_full_name{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.div_full_name fieldset:nth-child(2n){
+    margin-left: 1rem;
+}
+
+fieldset {
+    margin-top: 0.6rem;
+    color: Gainsboro;
+    border-radius: 15px;
+}
+fieldset:hover{
+    border-color: dodgerblue;
+}
+
+fieldset legend{
+    margin-left: 16px;
+}
+
+.primary_data input{
+    margin-left: 16px;
+    color: snow;
+    outline: none;
+    border: 0;
+    background: none;
+    font-size: 1.1rem;
+}
+
+input:focus{
+    border: 0;    
+}
+
+#input_password{
+    width: 90%;
+}
+
+::placeholder{
+    font-size: 0.9rem;
+    color: snow;
+}
+
+#profile_photo{
+    margin-right: 5rem;
+}
+
+.form2{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 0;
+}
+
+#fs_address > textarea{
+    color: snow;
+    outline: none;
+    font-size: 1.1rem;
+    background: none;
+    border-radius: 15px;
+    resize: none;
+}
+
+#address2{
+    width:78%;
+}
+
+#input_city, #input_country{
+    width: 10rem;
+}
+
+#input_postalcode{
+    width: 20%;
+}
+
+.therms_and_privacy{
+    margin-top: 10px;
+    margin-left: 6px;
+    font-size: 0.8rem;
+}
+
+.therms_and_privacy > span{
+    margin-left: 6px;
+    margin-right: 6px;
+    color: darkgray;
+}
+
+.button > button{
+    position: absolute;
+    margin-top: 10px;
+    width: 35%;
+    height: 35px;
+    background-color: dodgerblue;
+    color: snow;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor       : pointer;
+}
+
+button:hover {
+  outline   : none;
+  background: darkblue;
+}

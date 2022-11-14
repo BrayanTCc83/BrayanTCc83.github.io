@@ -1,0 +1,29 @@
+.article,
+.announcement {
+    background-color: rgb(240, 212, 243);
+}
+/*
+#page div {
+    background-color: rgb(166, 166, 255);
+}
+*/
+
+#page > div {
+    background-color: rgb(144, 214, 255);
+}
+
+.article span + span {
+    background-color: rgb(255, 152, 152);
+}
+
+.article strong ~ strong {
+    background-color: rgb(114, 255, 194);
+}
+
+#menu * {
+    background-color: rgb(190, 190, 190);
+}
+
+a[href="https://google.com"] {
+    color : chocolate;
+}
